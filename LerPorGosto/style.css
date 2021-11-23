@@ -2,3 +2,47 @@
     margin: 0;
     padding: 0;
 }
+
+/*
+
+ Estilizando o header, a navegação do menu
+
+*/
+.cabecalho {
+    color: #fff;
+    display: grid;
+    grid: 150px / auto auto;
+    grid-template-areas:
+    "logo logo"
+    "slogam navegacao";
+}
+
+.logo {
+    background-color: bisque;
+    grid-area: logo;
+}
+
+.navegacao {
+    background-color: cadetblue;
+    grid-area: navegacao;
+}
+
+.slogam {
+    background-color: darkcyan;
+    grid-area: slogam;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.item1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*  
+    Aqui termina a estilização do header
+*/
