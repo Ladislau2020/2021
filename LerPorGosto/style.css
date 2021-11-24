@@ -3,38 +3,55 @@
     padding: 0;
 }
 
+:root {
+    --corHeader: #fff;
+}
+
 /*
 
  Estilizando o header, a navegação do menu
 
 */
+
+
+
 .cabecalho {
-    color: #fff;
     display: grid;
-    grid: 150px / auto auto;
+    grid: 9.2rem / auto auto;
     grid-template-areas:
-    "logo logo"
-    "slogam navegacao";
+    "logo slogam"
+    "logo navegacao";
+    
+}
+
+.fotoLogo {
+    height: 235px; 
 }
 
 .logo {
-    background-color: bisque;
+    padding-bottom: -12rem;
+    background-color: var(--corHeader);
     grid-area: logo;
+    border: solid 2px black;
 }
 
 .navegacao {
-    background-color: cadetblue;
+    background-color: var(--corHeader);
     grid-area: navegacao;
+    border: solid 2px black;
+    padding-top: 6%;
 }
 
 .slogam {
-    background-color: darkcyan;
+    background-color: var(--corHeader);
     grid-area: slogam;
+    padding-top: 30px;
+    border: solid 2px black;
 }
 
 .link {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 
 }
 
@@ -46,3 +63,4 @@
 /*  
     Aqui termina a estilização do header
 */
+
