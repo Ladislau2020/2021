@@ -25,28 +25,42 @@
 }
 
 .fotoLogo {
-    height: 235px; 
+    height: 235px;
 }
 
 .logo {
+    margin-left: 5vh;
+    margin-top: 3vh;
     padding-bottom: -12rem;
     background-color: var(--corHeader);
     grid-area: logo;
-    border: solid 2px black;
+  /*  border: solid 2px black; */
 }
 
 .navegacao {
     background-color: var(--corHeader);
     grid-area: navegacao;
-    border: solid 2px black;
+ /*   border: solid 2px black; */
     padding-top: 6%;
 }
 
 .slogam {
     background-color: var(--corHeader);
     grid-area: slogam;
-    padding-top: 30px;
-    border: solid 2px black;
+    padding-top: 10%;
+    margin-left: -25%;
+ /*   border: solid 2px black; */
+}
+
+/*  
+    Estilização dos links de navegação principais
+*/
+
+
+.item1 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
 .link {
@@ -55,11 +69,9 @@
 
 }
 
-.item1 {
-    display: flex;
-    justify-content: space-evenly;
+.link:hover {
+    
 }
-
 /*  
     Aqui termina a estilização do header
 */
