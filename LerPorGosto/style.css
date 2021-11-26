@@ -70,7 +70,7 @@
 }
 
 .link:hover {
-    
+    border-bottom: 0.4vh solid black;
 }
 /*  
     Aqui termina a estilização do header
