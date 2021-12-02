@@ -21,6 +21,8 @@
     grid-template-areas:
     "logo slogam"
     "logo navegacao";
+    border: 1px solid #ccc;
+    border-radius: 5px;
     
 }
 
@@ -71,6 +73,7 @@
 
 .link:hover {
     border-bottom: 0.4vh solid black;
+    background-color: rgba(45, 45, 45, 0.1);
 }
 /*  
     Aqui termina a estilização do header
