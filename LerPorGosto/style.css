@@ -103,7 +103,6 @@
 .aside {
     background-color: #434672;
     width: 35%;
-    height: ;
 }
 
 
@@ -113,10 +112,9 @@
 
 .footer {
     height: 200px;
-    width: auto;
-    background-color: cyan;
+   /* Para não ser repetitivo estas linhas de codigo foram canceladas
     background-image: url("midia/fotos/logoTextura.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: hsl(89, 43%, 51%);
+    background-size: cover; */
+    background: url("midia/fotos/logoTextura.png");
 }
