@@ -83,3 +83,39 @@
     Aqui termina a estilização do header
 */
 
+/*
+    Aqui começa a estilização da div body
+    Estará entre o header e footer
+*/
+
+.body {
+    height: 700px;
+    display: flex;
+
+
+}
+
+.section {
+    width: 65%;
+    background-color: #5a3d45;
+}
+
+.aside {
+    background-color: #434672;
+    width: 35%;
+}
+
+
+/*
+    Aqui começa a estilização do footer
+*/
+
+.footer {
+    height: 200px;
+    width: auto;
+    background-color: cyan;
+    background-image: url("midia/fotos/logoTextura.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(89, 43%, 51%);
+}
