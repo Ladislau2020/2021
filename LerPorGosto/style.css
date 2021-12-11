@@ -54,6 +54,7 @@
     grid-area: slogam;
     padding-top: 10%;
     margin-left: -25%;
+    transform: skewX( 24deg);
  /*   border: solid 2px black; */
 }
 
@@ -67,6 +68,10 @@
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+}
+
+.lista1:hover, .lista2:hover, .lista3:hover, .lista4:hover {
+    transform: scale(1.7);
 }
 
 .link {
@@ -91,18 +96,17 @@
 .body {
     height: 700px;
     display: flex;
-
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 
 }
 
 .section {
     width: 65%;
-    background-color: #5a3d45;
 }
 
 .aside {
-    background-color: #434672;
     width: 35%;
+    border-left: 2px solid rgba(75, 75, 75, 0.329);
 }
 
 
