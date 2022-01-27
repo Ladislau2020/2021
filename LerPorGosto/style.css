@@ -7,12 +7,13 @@
     --corHeader: #fff;
 }
 
+
+
 /*
 
  Estilizando o header, a navegação do menu
 
 */
-
 
 
 .cabecalho {
@@ -21,7 +22,7 @@
     grid-template-areas:
     "logo slogam"
     "logo navegacao";
-    border: 1px solid #ccc;
+    border: 0 solid #ccc;
     /*
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23); 
@@ -109,15 +110,21 @@
 */
 
 .body {
+    /*max-width: 300px;*/
     height: 700px;
     display: flex;
     background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
-
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .section {
     width: 65%;
 }
+
+/*
+Shaping ared moon 
 
 .center {
     position: absolute;
@@ -129,9 +136,10 @@
     width: 100px;
     height: 100px;
     background-color: transparent;
-    border-radius: 50%;
-    box-shadow: 25px 10px 0 0 #000;
+    border-radius: 250%;
+    box-shadow: 25px 10px 0 0 rgb(231, 1, 1);
   }
+*/
 
 .aside {
     width: 35%;
