@@ -52,6 +52,11 @@ img {
 
 /* Typography */
 
+strong {
+    font-weight: var(--fw-bold);
+}
+
+
 h1,
 h2,
 h3 {
@@ -71,6 +76,31 @@ h3 {
     font-size: var(--fs-h3);
 }
 
+/* Styling the titles and sections */
+
+.section__title{
+    margin-bottom: .25em;
+}
+
+.section__title--intro {
+    font-weight: var(--fw-reg);
+}
+
+
+.section__title--intro strong {
+    display: block;
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
 
 
 
