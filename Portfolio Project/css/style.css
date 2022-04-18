@@ -137,6 +137,7 @@ h3 {
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
 }
 
 .section__subtitle--intro,
@@ -351,8 +352,8 @@ header {
 }
 
 .service {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 0 4em;
 }
 
 @media (min-width: 800px) {
