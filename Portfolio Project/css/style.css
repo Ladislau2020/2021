@@ -422,33 +422,33 @@ header {
     text-align: center;
 }
 
+.section__subtitle--work {
+    margin: 3em auto;
+}
+
 
 .portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: block;
 }
 
-.portfolio__item {
-    /*background: var(--clr-accent); */
-    overflow: hidden;
+/* Portfolio Button */
+
+.btn_portfolio {
+    display: inline-block;
+    padding: .5em 2.5em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
 }
 
-
-.portfolio__img {
-    transition: 
-            transform 750ms cubic-bezier(.5, 0, .5, 1),
-            opacity 250ms linear;
-}
-
-.portfolio__item:focus {
-    position: relative;
-    z-index: -2;
-}
-
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
-    transform: scale(1.2);
-    opacity: .5;
+.btn_portfolio:hover {
+    transform: scale(1.1);
 }
 
 
@@ -460,6 +460,109 @@ header {
 }
 
 */ 
+
+
+/* Schooling and Training */
+
+.training {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    background-image: url();
+    background-size: cover;
+    background-blend-mode: multiply;
+    text-align: center;
+}
+
+.section__title--training {
+    color: var(--clr-dark);
+    position: relative;
+}
+
+.section__title--training::after {
+    content: "";
+    display: block;
+    width:3.5em;
+    height: 1px;
+    margin: .15em auto 1em;
+    background: currentColor;
+    opacity: 0.3;
+}
+
+.educations {
+    margin-bottom: 4em;
+}
+
+.education {
+    max-width: 600px;
+    margin: 0 4em;
+}
+
+@media (min-width: 800px) {
+    .educations {
+        display: flex;
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .education + .education {
+        margin-left: 3.5em;
+    }
+}
+
+/* End of Education and Training */
+
+
+
+
+/* Formal Experience */
+
+.formal-experience {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    background-image: url();
+    background-size: cover;
+    background-blend-mode: multiply;
+    text-align: center;
+}
+
+.section__title--experiences {
+    color: var(--clr-accent);
+    position: relative;
+    margin-bottom: 1em;
+}
+
+
+
+.experiences {
+    margin-bottom: 4em;
+}
+
+.experience {
+    max-width: 800px;
+    margin: 2 4em;
+}
+
+@media (min-width: 800px) {
+    .experiences {
+        display: flex;
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .experience + .experience {
+        margin-left: 3.5em;
+    }
+}
+
+.ex_lists {
+    text-align: left;
+}
+
+/* End of formal experience  */
+
+
 
 /*  Footer  */
 
@@ -513,6 +616,10 @@ header {
 
 
 
+
+
+
+/* The other part or page of the site */
 
 /* individual portfolio item styles  */
 
