@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custon Properties */  
+/* Custon Properties */
 
 :root {
     --ff-primary:'Source Sans Pro', sans-serif;
@@ -265,7 +265,7 @@ header {
     content: '';
     position: absolute;
     left: 0;
-    right: 0; 
+    right: 0;
 }
 
 .hamburguer::before { top: 6px;}
@@ -296,7 +296,7 @@ header {
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
-        grid-template-areas: 
+        grid-template-areas:
         "img title"
         "img subtitle";
         grid-template-columns: min-content max-content;
@@ -348,12 +348,12 @@ header {
 }
 
 .services {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 .service {
-    max-width: 600px;
-    margin: 0 4em;
+    max-width: 900px;
+    margin: 0 0.15em;
 }
 
 @media (min-width: 800px) {
@@ -405,7 +405,7 @@ header {
         padding-left: 1em;
         padding-right: calc(200px + 4em);
     }
-    
+
     .about-me__img {
         grid-area: img;
         position: relative;
@@ -459,7 +459,7 @@ header {
     grid-column: 1;
 }
 
-*/ 
+*/
 
 
 /* Schooling and Training */
@@ -636,6 +636,20 @@ header {
     margin-right: auto;
 }
 
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    gap: 2em;
+    margin-bottom: 2em;
+}
 
 
 
